@@ -1,0 +1,18 @@
+Package: stRands
+Title: Solver for New York Times Strands Word Game
+Version: 0.0.0.9000
+Authors@R: 
+    person("Ariel", "Fridman", email = "ariel.fridman93@gmail.com", role = c("aut", "cre"))
+Description: This package includes the strands_solver function to find puzzle solutions.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+LazyData: true
+LinkingTo: 
+    Rcpp
+Imports: 
+    Rcpp
+Depends:
+    data.table,
+    R (>= 2.10)
